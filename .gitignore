@@ -1,0 +1,175 @@
+# ========================================
+# NETFLIX CLONE - GIT IGNORE
+# ========================================
+
+# ============ SENSITIVE FILES ============
+# NEVER commit these files!
+*.env
+.env
+.env.*
+local.properties
+secrets.properties
+keystore.properties
+
+# API Keys and Credentials
+**/credentials.json
+**/client_secret*.json
+google-services.json
+
+# ============ ANDROID BUILD FILES ============
+# Build output directories
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.ap_
+*.aab
+
+# Android Studio files
+*.iml
+.idea/
+.gradle/
+build/
+.navigation/
+captures/
+output.json
+
+# NDK
+obj/
+.externalNativeBuild/
+
+# IntelliJ
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/.name
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (API Keys)
+google-services.json
+
+# ============ NODE.JS / BACKEND ============
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+.env.local
+
+# ============ DATABASE ============
+# MySQL dumps
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# ============ OS FILES ============
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ============ IDE / EDITOR ============
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ============ TEMPORARY FILES ============
+*.tmp
+*.temp
+*.bak
+*.cache
+*.lock
+
+# ============ DOCUMENTATION (Optional) ============
+# Uncomment if you don't want to commit docs
+# *.md
+# *.txt
+
+# ============ MEDIA / ASSETS (Large files) ============
+# Uncomment if you have large video files
+# *.mp4
+# *.mov
+# *.avi
+
+# ============ GRADLE WRAPPER (Keep this) ============
+# Keep gradle-wrapper.jar and gradle-wrapper.properties
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# ============ PROJECT SPECIFIC ============
+# Cursor IDE
+.cursor/
+
+# Test files
+test-results/
+screenshots/
